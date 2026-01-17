@@ -2,7 +2,7 @@
 
 A high-performance Python implementation of weighted random sampling using prefix sums and binary search.
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates efficient weighted random sampling - a technique for selecting items from a collection where each item has a different probability of being chosen based on its assigned weight. Items with higher weights are more likely to be selected.
 
@@ -11,7 +11,7 @@ This project demonstrates efficient weighted random sampling - a technique for s
 - **Efficiency**: O(log n) time complexity per sample using binary search
 - **Accuracy**: Precise probability distribution matching theoretical expectations
 
-## 🚀 Features
+## Features
 
 - **Fast Sampling**: O(log n) time complexity per sample
 - **Memory Efficient**: O(n) space complexity for initialization
@@ -20,7 +20,7 @@ This project demonstrates efficient weighted random sampling - a technique for s
 - **Comprehensive Testing**: Unit tests with pytest
 - **Easy to Use**: Simple API with clear documentation
 
-## 🧮 Algorithm
+## Algorithm
 
 The implementation uses a **prefix sum array** combined with **binary search**:
 
@@ -40,7 +40,7 @@ Random number: 1.0 - 3.0 → banana
 Random number: 3.0 - 10.0 → cherry
 ```
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -68,7 +68,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
+## Usage
 
 ### Basic Example
 
@@ -122,7 +122,7 @@ rare_item: 0.090 (900/10000)
 legendary_item: 0.009 (90/10000)
 ```
 
-## 🧪 Running the Code
+## Running the Code
 
 
 
@@ -154,22 +154,9 @@ Where:
 - n = number of items
 - k = number of samples requested
 
-## 🎨 Demo Screenshots
 
-### Interactive Streamlit App
-The web interface allows you to:
-- Enter custom items and weights
-- Adjust sample size with a slider
-- View frequency tables and charts
-- Compare expected vs observed probabilities
 
-### Matplotlib Visualization
-The notebook demo shows side-by-side comparison of:
-- Expected probabilities (theoretical)
-- Observed frequencies (empirical)
-- Perfect alignment demonstrates algorithm accuracy
-
-## 🧪 Testing
+## Testing
 
 The project includes comprehensive unit tests:
 
@@ -183,7 +170,7 @@ Tests cover:
 - Probability distribution accuracy
 - Performance benchmarks
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Week1/
@@ -198,7 +185,7 @@ Week1/
 └── README.md             # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -206,11 +193,11 @@ Week1/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Additional sampling algorithms (alias method, reservoir sampling)
 - [ ] Performance benchmarks vs other libraries
@@ -218,7 +205,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - [ ] Multi-threaded sampling
 - [ ] Integration with popular ML libraries
 
-## 📚 References
+## References
 
 - [Weighted Random Sampling](https://en.wikipedia.org/wiki/Reservoir_sampling#Weighted_Random_Sampling)
 - [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
@@ -226,4 +213,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ for efficient random sampling**
